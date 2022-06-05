@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/mountains-g8d37e1089_1920.jpg");
+    background-size: cover;
+}
+
+.row {
+    /* border: 2px solid red; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#baslat {
+    border-radius: 30px;
+}
+
+
+#tahmin {
+    border-radius: 30px;
+}
+
+#sayi {
+    border-radius: 300px;
+}

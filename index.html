@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
   </head>
-  <body>
-    <h1>Sayı Tahmin Oyunu</h1>
-    <input type="button" id="baslat" value="Oyunu Başlat" />
-    <input type="button" id="tahmin" value="Tahmin et" disabled /><br />
-    <input type="text" id="sayi" placeholder="Bir sayı giriniz (0-100)" />
-
+  <body >
+    <div class="row ">
+        <h1 class=" m-4 text-success">Sayı Tahmin Oyunu❓❓❓</h1>
+      <input
+        type="button"
+        id="baslat"
+        class="p-3  bg-secondary text-info col-4 border border-danger"
+        value="Oyunu Başlat"
+      />
+      <input
+        type="button"
+        id="tahmin"
+        class="p-3 bg-secondary text-info col-4 border border-danger"
+        value="Tahmin et"
+        disabled
+      /><br />
+      <input
+        type="text"
+        id="sayi"
+        class="p-3 bg-warning col-8 border border-danger"
+        placeholder="Bir sayı giriniz (0-100)"
+      />
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
